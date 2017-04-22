@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+
+{% load i18n %}
+
+{% block container %}
+<div id="sec2" class="text-page">
+  <div class="container">
+  <h1>{% block title %}{% trans "Registration Complete" %}{% endblock %}</h1>
+  <p>{% blocktrans %}Congratulations, you've successfully registered an
+    account.{% endblocktrans %}</p>
+  <p><a href="{% url "two_factor:login" %}"
+        class="btn btn-block btn-default">Login</a></p>
+  </div>
+</div>
+{% endblock %}

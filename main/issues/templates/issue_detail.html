@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% load staticfiles %}
+{% load django_tables2 %}
+
+{% block title %}{{ block.super }}Issues{% endblock %}
+
+{% block navbar-left %}
+  {% include "_navbar.html" with active_link="issues" %}
+{% endblock %}
+
+{% block container %}
+  <div id="sec2" class="text-page">
+    <div class="container">
+        <div class="col-md-12 text-left">
+          <h1>Status: {{ issue.category }}</h1>
+          <p>Priority: {{ issue.priority }}</p>
+        </div>
+    </div>
+  </div>
+{% endblock container %}

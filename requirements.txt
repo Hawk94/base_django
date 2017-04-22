@@ -1,0 +1,22 @@
+# Django
+django==1.10.6
+
+# Django Add-Ons
+django-extensions>=1.7.8
+django-debug-toolbar>=1.7.0
+django-dotenv>=1.4.1
+django_tables2>=1.4.2
+django-authtools==1.5.0
+django-crispy-forms==1.6.1
+django-braces>=1.11.0
+django-user-sessions==1.4.0
+django-two-factor-auth==1.5.0
+
+ipdb==0.9.0
+
+#Heroku
+dj-database-url==0.4.2
+gunicorn==19.7.1
+whitenoise==3.3.0
+psycopg2==2.6.2
+twilio==5.7.0

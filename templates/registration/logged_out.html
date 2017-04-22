@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% load i18n %}
+
+{% block container %}
+<div id="sec2" class="text-page">
+  <div class="container">
+  <h1>{% block title %}{% trans "Logged Out" %}{% endblock %}</h1>
+  <p>{% trans "See you around!" %}</p>
+</div>
+</div>
+{% endblock %}
