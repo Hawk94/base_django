@@ -54,9 +54,6 @@ INSTALLED_APPS = [
     'two_factor',
     'main.accounts',
     'main.contracts',
-    'main.customers',
-    'main.issues',
-    'main.products',
 ]
 
 MIDDLEWARE_CLASSES = [
